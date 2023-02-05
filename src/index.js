@@ -36,8 +36,12 @@ searchButton.addEventListener('click', async () => {
     return;
   }
   let processedWeather = processWeatherData(weatherData);
-  weatherInfo.textContent = `City: ${processedWeather.cityName}
-  Temperature: ${processedWeather.temperature}°C
-  Humidity: ${processedWeather.humidity}%
-  Description: ${processedWeather.description}`;
+  weatherInfo.textContent = `City: ${processedWeather.cityName}\n
+Temperature: ${processedWeather.temperature}°C\n
+Humidity: ${processedWeather.humidity}%\n
+Description: ${processedWeather.description}`;
+});
+
+clearButton.addEventListener('click', () => {
+  cityInput.value = '';
 });

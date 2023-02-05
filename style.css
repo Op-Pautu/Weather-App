@@ -4,5 +4,19 @@ body {
     background-size: cover;
   background-position: center;
   height: 100vh;
+  color: white;
+  font-size: 34px;
   
 }
+
+#weather-info {
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;
+    height: 60vh;
+    white-space: pre;
+    padding-top: 50px;
+  }

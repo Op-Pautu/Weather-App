@@ -18,7 +18,7 @@ html {
   line-height: 1.6;
 }
 body {
-  background-image: url('../images/pexels-benjamin-suter-3617500.jpg');
+  background-image: url('./pexels-benjamin-suter-3617500.jpg');
 
   background-size: cover;
   background-position: center;
